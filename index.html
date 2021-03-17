@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <title>Decoder Ring - Home Page</title>
+</head>
+
+<body style="background-color: rgb(0, 0, 0);">
+  <header class="container-fluid bg-light border-bottom text-light bg-dark"  >
+    <nav class="row align-items-center" style="background-color: rgb(0, 0, 0);">
+      <h1 class="h4 p-3" >
+        <a class="text-light nav-link active" href="index.html"><p style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(255, 255, 255)),color-stop(0.75, rgb(255, 255, 255)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+          background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(255, 238, 238)),color-stop(0.75, rgb(255, 232, 232)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+          color:transparent;
+          -webkit-background-clip: text;
+          background-clip: text;">Decoder Ring</p></a>
+      </h1>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+    <!-- Caesar Shift -->
+    <section class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-header bg-info text-white">
+            <h2 class="my-2" >Caesar Shift</h2>
+          </div>
+          <div class="card-body", style = "background-color: rgba(255, 255, 255, 0.993);" >
+            <p style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+            background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+            color:transparent;
+            -webkit-background-clip: text;
+            background-clip: text;"> The Caesar Shift is a type of substitution cipher originally used by Julius Caesar to protect messages of
+              military
+              significance. It relies on taking the alphabet and "shifting" letters to the right or left, based on the
+              typical
+              alphabetic order.</p>
+            <hr />
+            <form id="caesar">
+              <div class="form-group">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="caesar-options" id="caesar-options-encode"
+                    value="encode" checked >
+                  <label class="form-check-label" for="caesar-options-encode" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                  color:transparent;
+                  -webkit-background-clip: text;
+                  background-clip: text;">Encode</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="caesar-options" id="caesar-options-decode"
+                    value="decode">
+                  <label class="form-check-label" for="caesar-options-decode" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                  color:transparent;
+                  -webkit-background-clip: text;
+                  background-clip: text;">Decode</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="caesar-input" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                color:transparent;
+                -webkit-background-clip: text;
+                background-clip: text;">Your message</label>
+                <textarea class="form-control" id="caesar-input" rows="3" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                color:transparent;
+                -webkit-background-clip: text;
+                background-clip: text;"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="caesar-shift"style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                color:transparent;
+                -webkit-background-clip: text;
+                background-clip: text;">Shift number</label>
+                <input type="number" class="form-control" id="caesar-shift" />
+              </div>
+              <button class="btn btn-primary" type="submit"style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+              background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+              color:transparent;
+              -webkit-background-clip: text;
+              background-clip: text;">Submit</button>
+            </form>
+          </div>
+          <div id="caesar-alert" class="alert alert-danger mb-0 rounded-0 d-none" role="alert" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+          background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+          color:transparent;
+          -webkit-background-clip: text;
+          background-clip: text;">
+            Something went wrong! Check your input and the shift amount and try again.
+          </div>
+          <div class="card-footer" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+          background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+          color:transparent;
+          -webkit-background-clip: text;
+          background-clip: text;">
+            Output: <span class="font-weight-bold" id="caesar-output" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+            background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+            color:transparent;
+            -webkit-background-clip: text;
+            background-clip: text;">No message as of yet...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Polybius -->
+    <section class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header bg-warning">
+            <h2 class="my-2">Polybius Square</h2>
+          </div>
+          <div class="card-body">
+            <p style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+            background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+            color:transparent;
+            -webkit-background-clip: text;
+            background-clip: text;">The Polybius Square is a cipher that is achieved by arranging a typical alphabet into a grid. Each letter
+              is represented
+              through a coordinate. For example, in the above table, the letter "B" would be represented by the
+              numerical pair "21".</p>
+            <hr />
+            <form id="polybius">
+              <div class="form-group">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="polybius-options" id="polybius-options-encode"
+                    value="encode" checked>
+                  <label class="form-check-label" for="polybius-options-encode" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                  color:transparent;
+                  -webkit-background-clip: text;
+                  background-clip: text;">Encode</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="polybius-options" id="polybius-options-decode"
+                    value="decode">
+                  <label class="form-check-label" for="polybius-options-decode" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                  color:transparent;
+                  -webkit-background-clip: text;
+                  background-clip: text;">Decode</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="polybius-input" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                color:transparent;
+                -webkit-background-clip: text;
+                background-clip: text;">Your message</label>
+                <textarea class="form-control" id="polybius-input" rows="3" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                color:transparent;
+                -webkit-background-clip: text;
+                background-clip: text;"></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+              background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+              color:transparent;
+              -webkit-background-clip: text;
+              background-clip: text;">Submit</button>
+            </form>
+          </div>
+          <div id="polybius-alert" class="alert alert-danger mb-0 rounded-0 d-none" role="alert" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+          background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+          color:transparent;
+          -webkit-background-clip: text;
+          background-clip: text;">
+            Something went wrong! Check your input and try again.
+          </div>
+          <div class="card-footer" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+          background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+          color:transparent;
+          -webkit-background-clip: text;
+          background-clip: text;">
+            Output: <span class="font-weight-bold" id="polybius-output">No message as of yet...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Substitution -->
+    <section class="row mt-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-header bg-success text-white">
+            <h2 class="my-2" >Substitution Cipher</h2>
+          </div>
+          <div class="card-body">
+            <p style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+            background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+            color:transparent;
+            -webkit-background-clip: text;
+            background-clip: text;">The Substitution Cipher requires a standard alphabet and a substitution alphabet. Letters from the
+              standard alphabet
+              will be transposed to the standard alphabet. This cipher requires that the recipient have the substitution
+              alphabet,
+              otherwise it will be difficult for them to decode the message.</p>
+            <hr />
+            <form id="substitution">
+              <div class="form-group">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="substitution-options"
+                    id="substitution-options-encode" value="encode" checked>
+                  <label class="form-check-label" for="substitution-options-encode" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                  color:transparent;
+                  -webkit-background-clip: text;
+                  background-clip: text;">Encode</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="substitution-options"
+                    id="substitution-options-decode" value="decode">
+                  <label class="form-check-label" for="substitution-options-decode" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                  color:transparent;
+                  -webkit-background-clip: text;
+                  background-clip: text;">Decode</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="substitution-input" style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                color:transparent;
+                -webkit-background-clip: text;
+                background-clip: text;">Your message</label>
+                <textarea class="form-control" id="substitution-input" rows="3"style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                color:transparent;
+                -webkit-background-clip: text;
+                background-clip: text;"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="substitution-alphabet"style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+                background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+                color:transparent;
+                -webkit-background-clip: text;
+                background-clip: text;">Alphabet key</label>
+                <input type="text" class="form-control" id="substitution-alphabet" maxlength="26" />
+              </div>
+              <button class="btn btn-primary" type="submit"style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+              background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+              color:transparent;
+              -webkit-background-clip: text;
+              background-clip: text;">Submit</button>
+            </form>
+          </div>
+          <div id="substitution-alert" class="alert alert-danger mb-0 rounded-0 d-none" role="alert"style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+          background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+          color:transparent;
+          -webkit-background-clip: text;
+          background-clip: text;">
+            Something went wrong! Check your input and alphabet key.
+          </div>
+          <div class="card-footer"style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+          background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+          color:transparent;
+          -webkit-background-clip: text;
+          background-clip: text;">
+            Output: <span class="font-weight-bold" id="substitution-output"style= "background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(217, 5, 236)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(158, 1, 237)), color-stop(1, #f22) );
+            background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, rgb(6, 240, 56)), color-stop(0.45, rgb(190, 0, 143)), color-stop(0.6, rgb(0, 0, 0)),color-stop(0.75, rgb(0, 0, 0)), color-stop(0.9, rgb(144, 8, 255)), color-stop(1, #f22) );
+            color:transparent;
+            -webkit-background-clip: text;
+            background-clip: text;">No message as of yet...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./scripts/setup.js"></script>
+  <script src="./src/caesar.js"></script>
+  <script src="./src/polybius.js"></script>
+  <script src="./src/substitution.js"></script>
+  <script src="./scripts/caesar.js"></script>
+  <script src="./scripts/polybius.js"></script>
+  <script src="./scripts/substitution.js"></script>
+</body>
+
+</html>
